@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Dental_caries', 'no_caries']
+
+roboflow:
+  workspace: project-group13
+  project: dental-caries-detection-using-dl
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-group13/dental-caries-detection-using-dl/dataset/10
